@@ -27,3 +27,9 @@ if st.button("Check News"):
             st.error("❌ This news is **FAKE**.")
         
         st.info(f"🧠 Model confidence: **{proba * 100:.2f}%**")
+
+st.markdown("<hr style='border:1px solid #999;'>", unsafe_allow_html=True)
+st.markdown(
+    "<p style='text-align: center; font-size: 12px; color: gray;'>Created by Aisha Nasnin</p>", 
+    unsafe_allow_html=True
+)
